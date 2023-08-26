@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./form.css">
+
+    <script src="https://kit.fontawesome.com/ffe8c3f3d7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="h-screen flex">
+       <img class="hidden lg:block w-1/2" src="./veg.jpg" alt="image">
+       <div class="flex flex-col justify-center items-center border w-full lg:w-1/2">
+        <div>
+            <div class="text-xl font-bold text-center lg:text-left">
+                <span class="text-green-600">&#9650;</span>
+                <span>FarmMan</span>
+            </div>
+
+            <div class="mt-10 ml-10 lg:ml-0 font-bold text-3xl lg:text-left">
+                <h1>Hello,</h1>
+                <h1>Welcome Back</h1>
+            </div>
+
+            <!-- login form  -->
+            <form action="" class="mt-10 w-[80%] lg:w-96 mx-auto space-y-4">
+                <h4>Login to manage your account.</h4>
+                <input type="Email" placeholder="Email" class="w-full border px-4 py-2 outline-none focus:border-gray-500 focus:bg-blue-100 rounded-lg">
+                <input type="Password" placeholder="Password" class="w-full border px-4 py-2 outline-none  focus:border-gray-500 focus:bg-blue-100  rounded-lg">
+                <div class="text-blue-600 hover:text-blue-400 cursor-pointer">
+                    Forget your password?
+                </div>
+                <button class="w-full mt-2 bg-green-600 py-2 rounded text-white hover:bg-green-500">Login</button>
+            </form>
+            <div class="text-center space-y-4 mt-4">
+                <span>or</span>
+                <div class="flex gap-8 justify-center items-center">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <div class="mt-4 text-sm text-center">
+                don't have an account? <span class="text-blue-600 hover:text-blue-400 cursor-pointer">Sign Up here</span>
+            </div>
+           </div>
+       </div>
+      
+    </div>
+</body>
+</html>
